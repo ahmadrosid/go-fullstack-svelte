@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-pattern {
+    background-color: #ffedd5;
+    background-image: url("/topography.svg");
+}
+
+.sidebar-link {
+    @apply block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-orange-100 hover:text-orange-900 text-left w-full;
+}
+.sidebar-link.active {
+    @apply bg-orange-200 text-orange-900;
+}
