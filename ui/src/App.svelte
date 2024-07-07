@@ -7,8 +7,13 @@
   import Project from "./pages/Project.svelte";
   import Task from "./pages/Task.svelte";
   import Setting from "./pages/Setting.svelte";
+  import Toaster from "./components/Toaster.svelte";
+  import { setToastState } from "./lib/toast";
   export let url = "";
+  setToastState();
 </script>
+
+<Toaster />
 
 <Router {url}>
   <Route path="/" component={Home} /> 

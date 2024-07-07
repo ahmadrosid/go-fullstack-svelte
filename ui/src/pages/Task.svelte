@@ -6,10 +6,14 @@
     
     // Sample data for tasks
     let tasks = [
-        { id: 1, title: "Review and merge pull requests", description: "Review pending PRs and merge if approved.", status: "In Progress" },
-        { id: 2, title: "Update user authentication module", description: "Implement new authentication features.", status: "Pending" },
-        { id: 3, title: "Conduct code review for Project-B", description: "Review code quality and provide feedback.", status: "Completed" },
-        { id: 4, title: "Optimize database queries", description: "Improve query performance for the database.", status: "Pending" }
+        { id: 1, title: "Review and merge pull requests", 
+        status: "In Progress" },
+        { id: 2, title: "Update user authentication module", 
+        status: "Pending" },
+        { id: 3, title: "Conduct code review for Project-B", 
+        status: "Completed" },
+        { id: 4, title: "Optimize database queries", 
+        status: "Pending" }
     ];
 
     // Function to determine status color
@@ -45,7 +49,7 @@
     <div class="container mx-auto max-w-6xl px-4 pb-12 relative">
         <div class="py-12 pb-4 flex justify-between items-center">
             <h1 class="text-4xl font-bold">Tasks</h1>
-            <Button>Add Task</Button>
+            <Button> <PlusIcon class="mr-1 w-4 h-4"/> Add Task</Button>
         </div>
 
         <div class="py-8">
@@ -56,9 +60,8 @@
                             <tr>
                                 <th>ID</th>
                                 <th>Title</th>
-                                <th>Description</th>
                                 <th>Status</th>
-                                <th>Actions</th>
+                                <th class="w-64">Actions</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -66,7 +69,6 @@
                                 <tr>
                                     <td>{task.id}</td>
                                     <td>{task.title}</td>
-                                    <td>{task.description}</td>
                                     <td class={getStatusColor(task.status)}>{task.status}</td>
                                     <td>
                                         <Button className="mr-2" variant="outline-primary">View</Button>
