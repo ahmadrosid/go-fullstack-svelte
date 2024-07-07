@@ -1,6 +1,6 @@
 <script lang="ts">
   import BaseLayout from "../components/BaseLayout.svelte";
-  import RetroOutline from "../components/RetroOutline.svelte";
+  import RetroOutline from "../components/ui/RetroOutline.svelte";
   import { Link, navigate } from "svelte-routing";
   import { pb } from '../lib/pocketbase';
 

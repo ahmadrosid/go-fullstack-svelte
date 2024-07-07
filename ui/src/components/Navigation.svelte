@@ -1,6 +1,6 @@
 <script lang="ts">
     import { Link } from "svelte-routing";
-    import Button from "./Button.svelte";
+    import Button from "./ui/Button.svelte";
     import { onMount } from "svelte";
     import { navigate } from "svelte-routing";
     import { pb } from '../lib/pocketbase';

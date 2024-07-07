@@ -1,6 +1,6 @@
 <script>
     import { Briefcase, CheckSquare, GraduationCap, TrendingUp } from 'lucide-svelte';
-    import RetroOutline from './RetroOutline.svelte';
+    import RetroOutline from '../ui/RetroOutline.svelte';
 
     let features = [
       { icon: Briefcase, title: "Project tracking", description: "Track and manage all your internship projects in one place, ensuring smooth progress and timely completion." },

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Button from "../components/Button.svelte";
-  import RetroOutline from "../components/RetroOutline.svelte";
+  import Button from "../components/ui/Button.svelte";
+  import RetroOutline from "../components/ui/RetroOutline.svelte";
   import BaseLayout from "../components/BaseLayout.svelte";
   import { pb } from "../lib/pocketbase";
 

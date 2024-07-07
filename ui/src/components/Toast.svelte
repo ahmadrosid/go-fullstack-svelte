@@ -14,7 +14,7 @@
 	} from "lucide-svelte";
 	import { crossfade } from "svelte/transition";
 	import { cubicOut } from "svelte/easing";
-	import RetroOutline from "./RetroOutline.svelte";
+	import RetroOutline from "./ui/RetroOutline.svelte";
   
 	export let toast: ToastType;
   
