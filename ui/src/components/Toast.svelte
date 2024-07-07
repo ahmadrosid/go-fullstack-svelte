@@ -13,7 +13,7 @@
 	  InfoIcon as InfoIconType,
 	} from "lucide-svelte";
 	import { crossfade } from "svelte/transition";
-	import { cubicOut } from "svelte/easing";
+	import { cubicInOut } from "svelte/easing";
 	import RetroOutline from "./ui/RetroOutline.svelte";
   
 	export let toast: ToastType;
@@ -50,14 +50,14 @@
   
 	const [send, receive] = crossfade({
 	  duration: 300,
-	  easing: cubicOut,
+	  easing: cubicInOut,
 	  fallback(node, params) {
 		const style = getComputedStyle(node);
 		const transform = style.transform === 'none' ? '' : style.transform;
   
 		return {
 		  duration: 300,
-		  easing: cubicOut,
+		  easing: cubicInOut,
 		  css: t => `
 			transform: ${transform} translateY(${(1 - t) * 50}px);
 			opacity: ${t}
