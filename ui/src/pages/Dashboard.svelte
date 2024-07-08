@@ -1,7 +1,7 @@
 <script>
 import Button from "../components/ui/Button.svelte";
 import RetroOutline from "../components/ui/RetroOutline.svelte";
-import { PlusIcon } from 'lucide-svelte';
+import PlusIcon from 'lucide-svelte/icons/plus';
 import BaseLayout from "../components/BaseLayout.svelte";
 import { pb } from '../lib/pocketbase';
 

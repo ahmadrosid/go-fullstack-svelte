@@ -22,7 +22,7 @@
 </script>
 
 <BaseLayout>
-  <div class="bg-white flex items-center justify-center min-h-[90vh]">
+  <div class="bg-white flex items-center justify-center min-h-screen">
     <RetroOutline className='max-w-md'>
       <div class="bg-white p-6">
         <h1 class="text-2xl font-bold mb-6">Login</h1>

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { XIcon } from "lucide-svelte";
+  import XIcon from "lucide-svelte/icons/x";
   import RetroOutline from "../ui/RetroOutline.svelte";
   import { getToastState } from "../../lib/toast";
 

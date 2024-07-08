@@ -6,7 +6,7 @@
   import { pb, type UserModel } from "../lib/pocketbase";
   import RetroOutline from "./ui/RetroOutline.svelte";
   import { fade } from "svelte/transition";
-  import { UserSquare } from "lucide-svelte";
+  import UserSquare from "lucide-svelte/icons/square-user-round"
 
   let isLoggedIn = false;
   let user: UserModel;
