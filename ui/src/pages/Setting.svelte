@@ -14,7 +14,7 @@
   };
 
   let user = {
-    fullname: "",
+    name: "",
     username: "",
     email: "",
     password: "",
@@ -36,6 +36,7 @@
     if (authUser) {
       user = {
         ...user,
+        name: authUser.name,
         username: authUser.username,
         email: authUser.email,
         photoUrl: authUser.avatar,
@@ -126,14 +127,14 @@
                         </div>
                         <div>
                         <label
-                            for="fullname"
+                            for="name"
                             class="block text-sm font-medium text-gray-700"
                             >Full name</label
                         >
                         <input
                             type="text"
-                            id="username"
-                            bind:value={user.fullname}
+                            id="name"
+                            bind:value={user.name}
                             class="mt-1 block w-full border border-gray-800 shadow-sm p-2"
                         />
                         </div>

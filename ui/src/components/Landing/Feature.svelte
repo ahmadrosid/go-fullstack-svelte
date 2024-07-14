@@ -1,5 +1,9 @@
 <script>
-    import { Briefcase, CheckSquare, GraduationCap, TrendingUp } from 'lucide-svelte';
+    import Briefcase from 'lucide-svelte/icons/briefcase';
+    import CheckSquare from 'lucide-svelte/icons/square-check';
+    import GraduationCap from 'lucide-svelte/icons/graduation-cap';
+    import TrendingUp from 'lucide-svelte/icons/trending-up';
+
     import RetroOutline from '../ui/RetroOutline.svelte';
 
     let features = [

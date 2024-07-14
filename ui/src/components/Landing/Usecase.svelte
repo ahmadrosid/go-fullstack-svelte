@@ -1,5 +1,9 @@
 <script>
-    import { Building, GraduationCap, Users, Briefcase } from 'lucide-svelte';
+  import Building from 'lucide-svelte/icons/building';
+  import GraduationCap from 'lucide-svelte/icons/graduation-cap';
+  import Users from 'lucide-svelte/icons/users';
+  import Briefcase from 'lucide-svelte/icons/briefcase';
+
   
     const useCases = [
       {
