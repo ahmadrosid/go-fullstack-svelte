@@ -2,7 +2,6 @@
 
 ![demo](/demo.png)
 
-
 ## How to run the app?
 
 Go to UI folder and run build command.
