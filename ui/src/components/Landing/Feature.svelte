@@ -1,16 +1,16 @@
 <script>
     import Briefcase from 'lucide-svelte/icons/briefcase';
     import CheckSquare from 'lucide-svelte/icons/square-check';
-    import GraduationCap from 'lucide-svelte/icons/graduation-cap';
-    import TrendingUp from 'lucide-svelte/icons/trending-up';
+    import LayoutDashboard from 'lucide-svelte/icons/layout-dashboard';
+    import ServerCog from 'lucide-svelte/icons/server-cog';
 
     import RetroOutline from '../ui/RetroOutline.svelte';
 
     let features = [
-      { icon: Briefcase, title: "Project tracking", description: "Track and manage all your internship projects in one place, ensuring smooth progress and timely completion." },
-      { icon: CheckSquare, title: "Task management", description: "Assign, monitor, and review tasks for your interns, keeping everything organized and on schedule." },
-      { icon: GraduationCap, title: "Course integration", description: "Seamlessly integrate academic courses with internship work, aligning practical experience with theoretical knowledge." },
-      { icon: TrendingUp, title: "Progress monitoring", description: "Monitor and analyze intern performance with real-time progress tracking and insightful analytics." }
+      { icon: Briefcase, title: "Go Backend", description: "Leverage the power and efficiency of Go for your server-side logic, with a pre-configured structure for rapid development."},
+      { icon: CheckSquare, title: "Pocketbase Integration", description: "Utilize Pocketbase as your backend, offering a robust database, authentication, and realtime APIs out of the box." },
+      { icon: LayoutDashboard, title: "Svelte Frontend", description: "Create dynamic and reactive user interfaces with Svelte, providing a smooth and fast user experience." },
+      { icon: ServerCog, title: "Pre-configured Setup", description: "Get up and running quickly with our carefully crafted boilerplate, saving you hours of initial setup and configuration." }
     ];
 </script>
 

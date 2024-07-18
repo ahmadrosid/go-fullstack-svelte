@@ -51,7 +51,7 @@
     <div class="flex justify-between items-center py-4">
       <div class="flex gap-4 items-center">
         <Link to="/" class="font-semibold text-xl text-gray-950">
-          Internsight
+          Fullstack Go
         </Link>
       </div>
       <div class="flex items-center space-x-8">

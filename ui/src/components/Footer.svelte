@@ -43,7 +43,7 @@
       class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center"
     >
       <div class="mb-4 md:mb-0">
-        <p>&copy; {currentYear} Intersight. All rights reserved.</p>
+        <p>&copy; {currentYear} Fullstack Go. All rights reserved.</p>
       </div>
       <div class="flex space-x-4">
         {#each socialIcons as { icon, href }}

@@ -33,11 +33,11 @@
 <div class="container mx-auto max-w-6xl px-4 relative">
   <main>
     <div class="py-16">
-      <h1 class="text-5xl font-bold text-center max-w-4xl mx-auto">
-        Intersight: All-in-one dashboard for internship management
+      <h1 class="text-5xl font-bold text-center max-w-4xl mx-auto text-balance">
+        Rapid Fullstack Development with Go, Pocketbase, and Svelte
       </h1>
       <p class="text-xl text-center mt-4">
-        Simplify student oversight in one intuitive platform
+        Kickstart your Go web apps with our fullstack Go boilerplate.
       </p>
       <div class="text-center pt-8">
         <div class="relative inline-block mr-4">
@@ -45,7 +45,7 @@
             on:click={toggleDemo}
             class="bg-black text-white px-4 py-2 hover:underline relative z-10"
           >
-            See demo
+            View on Github
           </button>
           <div
             class="absolute left-1 top-1 -right-1 -bottom-1 bg-white border-2 border-gray-800"
@@ -61,7 +61,7 @@
 
     <div class="pb-12">
       <RetroOutline>
-        <img src="/demo.png" alt="Intersight" />
+        <img src="/demo.png" alt="Fullstack" />
       </RetroOutline>
     </div>
   </main>
@@ -75,7 +75,7 @@
       <RetroOutline className="w-full">
         <div class="p-6">
           <div class="flex items-center justify-between mb-4">
-            <h2 class="text-2xl font-bold">Intersight Demo</h2>
+            <h2 class="text-2xl font-bold">Fullstack Go Demo</h2>
             <button class="hover:text-gray-800" on:click={toggleDemo}>
               <XIcon />
             </button>

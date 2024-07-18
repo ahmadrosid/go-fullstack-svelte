@@ -8,23 +8,23 @@
     const useCases = [
       {
         icon: Building,
-        title: "Enterprise Internship Programs",
-        description: "Streamline large-scale internship management across multiple departments, ensuring consistent experiences and efficient oversight.",
+        title: "Startups",
+        description: "Ideal for startups looking to quickly prototype and launch MVPs with a solid, scalable foundation.",
       },
       {
         icon: GraduationCap,
-        title: "University Partnerships",
-        description: "Facilitate seamless collaboration between universities and partner companies, aligning academic goals with real-world experience.",
+        title: "Personal Projects",
+        description: "Perfect for developers working on side projects, allowing you to focus on features rather than boilerplate setup."
       },
       {
         icon: Users,
-        title: "Startup Talent Acquisition",
-        description: "Help startups attract and nurture top talent through well-structured internship programs, turning interns into valuable team members.",
+        title: "Enterprise Applications",
+        description: "Provides a consistent starting point for enterprise teams building internal tools or customer-facing applications."
       },
       {
         icon: Briefcase,
-        title: "Remote Internship Management",
-        description: "Enable smooth coordination of remote internships, ensuring clear communication and progress tracking across distributed teams.",
+        title: "API-driven Applications",
+        description: "Excellent base for building applications that require a powerful API backend with a responsive frontend."
       }
     ];
   </script>
@@ -35,7 +35,7 @@
         <div class="md:w-5/12 md:pr-12 mb-8 md:mb-0">
           <h2 class="text-4xl font-bold mb-4">Usecase</h2>
           <p class="text-xl text-gray-600 mb-6">
-            Transforming internship management across industries.
+            Empowering developers to build fullstack applications faster.
           </p>
           <a href="#" class="text-orange-600 hover:underline font-semibold">Explore all use cases &rarr;</a>
         </div>
