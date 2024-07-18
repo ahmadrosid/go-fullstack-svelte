@@ -7,7 +7,7 @@
 
   const footerLinks = [
     { title: "Product", links: ["Features", "Case studies"] },
-    { title: "Resources", links: ["Blog", "Newsletter", "Help center"] },
+    { title: "Resources", links: ["Documentation", "Tutorials", "GitHub Repository"] },
     { title: "Legal", links: ["Terms", "Privacy", "Licenses"] },
   ];
 
