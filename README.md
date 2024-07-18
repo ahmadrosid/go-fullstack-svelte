@@ -2,8 +2,6 @@
 
 ![demo](/sample-app.png)
 
-This is a sample app built with Go Fullstack Pocketbase and Svelte.
-
 ## How to run the app?
 
 Go to UI folder and run build command.
