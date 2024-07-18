@@ -74,8 +74,6 @@
 
             <Link to="/tasks" class="text-sm hover:underline">Task</Link>
 
-            <Link to="/dashboard" class="text-sm hover:underline">Course</Link>
-
             <Link to="/settings" class="text-sm hover:underline">Settings</Link>
           </div>
 

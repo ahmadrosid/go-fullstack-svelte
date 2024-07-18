@@ -15,7 +15,7 @@
       navigate('/dashboard');
     } catch (err) {
       console.error('Login failed:', err);
-      error = 'Invalid email or password' + email + password;
+      error = 'Invalid email or password';
     }
   }
 
