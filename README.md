@@ -1,6 +1,6 @@
 # Go Fullstack Pocketbase with Svelte 
 
-![demo](/demo.png)
+![demo](/sample-app.png)
 
 ## How to run the app?
 
