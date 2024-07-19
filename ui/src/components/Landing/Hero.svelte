@@ -41,12 +41,13 @@
       </p>
       <div class="text-center pt-8">
         <div class="relative inline-block mr-4">
-          <button
-            on:click={toggleDemo}
-            class="bg-black text-white px-4 py-2 hover:underline relative z-10"
+          <a
+            href="https://github.com/ahmadrosid/go-fullstack-svelte"
+            target="_blank"
+            class="inline-block bg-black text-white px-4 py-2 hover:underline relative z-10"
           >
             View on Github
-          </button>
+        </a>
           <div
             class="absolute left-1 top-1 -right-1 -bottom-1 bg-white border-2 border-gray-800"
             aria-hidden="true"
